@@ -20,4 +20,5 @@ sources:
       - name: drivers
       - name: locations
       - name: payments
+      - name: trips
       - name: vehicles

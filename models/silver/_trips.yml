@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: trips2
+    description: "Model for trips data."
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: trip_id
+        description: "Unique identifier for each trip."
+        data_type: integer
+      - name: driver_id
+        description: "Unique identifier for the driver."
+        data_type: integer
+      - name: customer_id
+        description: "Unique identifier for the customer."
+        data_type: integer
+      - name: vehicle_id
+        description: "Unique identifier for the vehicle."
+        data_type: integer
+      - name: trip_start_time
+        description: "Datetime when the trip started."
+        data_type: timestamp
+      - name: trip_end_time
+        description: "Datetime when the trip ended."
+        data_type: timestamp
+      - name: distance_km
+        description: "Distance traveled during the trip in kilometers."
+        data_type: double
+      - name: fare_amount
+        description: "Fare amount charged for the trip."
+        data_type: double
+      - name: last_updated_timestamp
+        description: "Timestamp when the record was last updated."
+        data_type: timestamp

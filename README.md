@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+Welcome to your EC's dbt project!
 
 ### Using the starter project
 

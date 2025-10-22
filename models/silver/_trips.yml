@@ -6,6 +6,8 @@ models:
     config:
       contract:
         enforced: true
+    meta: 
+      owner: Ethan-Cole Evans
     columns:
       - name: trip_id
         description: "Unique identifier for each trip."
